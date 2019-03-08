@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\home.js"],{
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
@@ -46,10 +46,10 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/home.js":
+/*!***********************!*\
+  !*** ./pages/home.js ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -57,17 +57,17 @@ module.exports = function(originalModule) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Personal\\sick-fits\\frontend\\pages\\index.js";
+var _jsxFileName = "d:\\Projects\\sick-fits\\frontend\\pages\\home.js";
 
 
 var Home = function Home(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 1
     },
     __self: this
-  }, "Hey");
+  }, "Home");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -87,21 +87,21 @@ var Home = function Home(props) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/home")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 4:
+/*!*****************************!*\
+  !*** multi ./pages/home.js ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/home', function() {
+module.exports = __webpack_require__(/*! ./pages/home.js */"./pages/home.js");
 
 return { page: module.exports.default }});
 
@@ -118,5 +118,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=home.js.map

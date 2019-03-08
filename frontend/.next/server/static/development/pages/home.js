@@ -88,45 +88,61 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/next/dist/pages/_document.js":
-/*!***************************************************!*\
-  !*** ./node_modules/next/dist/pages/_document.js ***!
-  \***************************************************/
+/***/ "./pages/home.js":
+/*!***********************!*\
+  !*** ./pages/home.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "d:\\Projects\\sick-fits\\frontend\\pages\\home.js";
+
+
+var Home = function Home(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 1
+    },
+    __self: this
+  }, "Home");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ 4:
+/*!*****************************!*\
+  !*** multi ./pages/home.js ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next/document */ "next/document")
+module.exports = __webpack_require__(/*! ./pages/home.js */"./pages/home.js");
 
 
 /***/ }),
 
-/***/ 2:
-/*!*********************************************************!*\
-  !*** multi ./node_modules/next/dist/pages/_document.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! d:\Projects\sick-fits\frontend\node_modules\next\dist\pages\_document.js */"./node_modules/next/dist/pages/_document.js");
-
-
-/***/ }),
-
-/***/ "next/document":
-/*!********************************!*\
-  !*** external "next/document" ***!
-  \********************************/
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("next/document");
+module.exports = require("react");
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_document.js.map
+//# sourceMappingURL=home.js.map
