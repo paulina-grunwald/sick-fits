@@ -14,7 +14,7 @@ Router.onRouteChangeComplete = () => {
 }
 
 Router.onRouteChangeError = () => {
-  console.log('onRouteChangeError')
+  console.log('onRouteChangeError is triggered')
 }
 
 const Logo = styled.h1`
