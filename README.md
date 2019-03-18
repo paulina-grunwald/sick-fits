@@ -1,8 +1,6 @@
 # Sick Fits Store
 
-This is a project that was part of the [Advanced React and GraphQL](https://advancedreact.com/) created by Wes Bos. The Sick fits web application for online clothing store. It was built using
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
- React, GraphQL, Next.js. The application has five main models — Users, Items, Orders, CartItems, and OrderItems — all of which are relational and showcase the power of relational GraphQL Queries. The app also includes many server side bits including JWT authentication, permissions, sending email, uploading images, and charging credit cards.
+This is a project that was part of the [Advanced React and GraphQL](https://advancedreact.com/) created by Wes Bos. The Sick fits web application for online clothing store. It was built using React, GraphQL, Next.js. The application has five main models — Users, Items, Orders, CartItems, and OrderItems — all of which are relational and showcase the power of relational GraphQL Queries. The app also includes many server side bits including JWT authentication, permissions, sending email, uploading images, and charging credit cards.
 
 ## Getting Started
 
@@ -19,6 +17,7 @@ In order to get started you need to follow these steps:`
 - [GraphQl](https://graphql.org/) - A query language for APIs
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [NProgress](https://github.com/rstacruz/nprogress) - slim progress bar library
+- [Apollo](https://www.apollographql.com/docs/react/) - quickly builds a UI that fetches data with GraphQL.
 
 ## Learnings form this project
 
@@ -31,7 +30,8 @@ In order to get started you need to follow these steps:`
 3. Setting up prisma
    prisma login
    prisna init
+   You can deploy custom env file using command `prisma deploy --env-file variables.env`
 
 ## Acknowledgments
 
-I would recommand the Wes Bos's to anybody eager to learn modern web development.
+I would recommand the Wes Bos's to anybody eager to learn about modern web development.
