@@ -18,7 +18,6 @@ export default class Item extends Component {
     return (
       <ItemStyles>
         {item.image && <img src={item.image} alt={item.title} />}
-
         <Title>
           <Link
             href={{

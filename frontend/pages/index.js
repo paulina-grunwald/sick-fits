@@ -1,7 +1,10 @@
 
+import Items from '../components/Items'
+
 const Home = props => (
   <div>
-    Hey
+    <Items />
   </div>
 )
+
 export default Home
