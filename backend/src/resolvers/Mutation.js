@@ -1,8 +1,6 @@
 const Mutation = {
   async createItem(parent, args, ctx, info) {
-    // returns promise
-    const item = await ctx.db.mutation.createItem(
-      {
+    const item = await ctx.db.mutation.createItem({
         data: {
           ...args
         }
@@ -10,6 +8,16 @@ const Mutation = {
       info
     )
     return item
+  }
+  updateItem (parent, args, ctx, info) {
+    const updates = { ...args }
+    delete updates.id
+    return ctx.db.mutation.updateItem({
+      data: updates,
+      where: {
+        id: args.id
+      }
+    }, info)
   }
 }
 
