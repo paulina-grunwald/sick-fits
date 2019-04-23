@@ -1,5 +1,5 @@
 # source: https://eu1.prisma.sh/paulina-grunwald-1e668a/sick-fits-app/dev
-# timestamp: Sun Mar 17 2019 14:48:01 GMT+0100 (W. Europe Standard Time)
+# timestamp: Sun Mar 31 2019 10:42:50 GMT+0200 (CEST)
 
 type AggregateItem {
   count: Int!
@@ -38,6 +38,7 @@ type ItemConnection {
 }
 
 input ItemCreateInput {
+  id: ID
   title: String!
   description: String!
   image: String!
@@ -505,6 +506,7 @@ type UserConnection {
 }
 
 input UserCreateInput {
+  id: ID
   name: String!
   email: String!
 }
